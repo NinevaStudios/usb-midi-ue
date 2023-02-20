@@ -1,6 +1,6 @@
-package com.ninevastudios.midilib.bridge;
+package com.ninevastudios.midilib;
 
-import com.ninevastudios.midilib.source.IMidiCallback;
+import com.ninevastudios.midilib.IMidiCallback;
 
 public class MidiCallback implements IMidiCallback {
 	@Override

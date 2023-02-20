@@ -1,4 +1,4 @@
-package com.ninevastudios.midilib.source;
+package com.ninevastudios.midilib;
 
 import static android.app.PendingIntent.FLAG_MUTABLE;
 

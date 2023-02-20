@@ -1,4 +1,4 @@
-package com.ninevastudios.midilib.source;
+package com.ninevastudios.midilib;
 
 public interface IMidiCallback {
 	void DeviceAttached(String name);

@@ -6,5 +6,7 @@
 
   <init>
     <log text="[MidiGoodies] Android UPL initialization"/>
+    <copyDir src="$S(PluginDir)/Private/Java" dst="$S(BuildDir)/src/com/ninevastudios/midilib"/>
   </init>
+
 </root>

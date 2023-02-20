@@ -1,4 +1,4 @@
-package com.ninevastudios.midilib.source;
+package com.ninevastudios.midilib;
 
 
 import android.hardware.usb.UsbDeviceConnection;

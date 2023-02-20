@@ -1,4 +1,4 @@
-// Copyright Epic Games, Inc. All Rights Reserved.
+// Copyright (c) 2023 Nineva Studios
 
 #pragma once
 
@@ -8,7 +8,4 @@ class FMidiGoodiesModule : public IModuleInterface
 {
 public:
 
-	/** IModuleInterface implementation */
-	virtual void StartupModule() override;
-	virtual void ShutdownModule() override;
 };

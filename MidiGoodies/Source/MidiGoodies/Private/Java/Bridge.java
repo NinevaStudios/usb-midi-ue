@@ -1,8 +1,8 @@
-package com.ninevastudios.midilib.bridge;
+package com.ninevastudios.midilib;
 
 import android.app.Activity;
 
-import com.ninevastudios.midilib.source.UsbMidiController;
+import com.ninevastudios.midilib.UsbMidiController;
 
 public class Bridge {
 	public static native void RawMidi(byte command, byte data1, byte data2);
