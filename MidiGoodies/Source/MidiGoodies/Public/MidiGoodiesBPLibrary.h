@@ -13,7 +13,7 @@ DECLARE_DYNAMIC_DELEGATE_ThreeParams(FMidiRawDelegate, uint8, Command, uint8, Da
 
 
 UCLASS()
-class UMidiGoodiesBPLibrary : public UBlueprintFunctionLibrary
+class MIDIGOODIES_API UMidiGoodiesBPLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
 	
