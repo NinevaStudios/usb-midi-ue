@@ -9,4 +9,12 @@
     <copyDir src="$S(PluginDir)/Private/Java" dst="$S(BuildDir)/src/com/ninevastudios/midilib"/>
   </init>
 
+  <proguardAdditions>
+    <insert>
+      -dontwarn com.ninevastudios.**
+      -keep class com.ninevastudios.** { *; }
+      -keep interface com.ninevastudios.** { *; }
+    </insert>
+  </proguardAdditions>
+
 </root>
